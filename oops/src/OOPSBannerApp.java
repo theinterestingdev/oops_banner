@@ -2,9 +2,12 @@ import java.util.HashMap;
 
 public class OOPSBannerApp {
 
-//    /**
-//     * Character Pattern Map - Inner class for storing character to pattern mappings
-//     */
+
+
+    /**
+     * Creating a character map
+
+     */
 
 
     private static HashMap<Character,String[]>createCharacterMap()
@@ -43,6 +46,12 @@ public class OOPSBannerApp {
 
     }
 
+    /**
+     *
+     * Banner Display Method
+     */
+
+
     public static void displayBanner(String message,HashMap<Character,String[]>charMap)
     {
         int patternHeight = charMap.get('O').length;
@@ -63,6 +72,10 @@ public class OOPSBannerApp {
     }
 
 
+
+//    /**
+//     * Character Pattern Map - Inner class for storing character to pattern mappings
+//     */
 
 
 //    static class CharacterPatternMap{
